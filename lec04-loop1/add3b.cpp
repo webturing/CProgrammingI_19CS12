@@ -13,11 +13,10 @@ using namespace std;
 int main() {
 	int T;
 	cin>>T;//T=3
-	while(T>0) {
+	while(T--) {
 		int x,y;
 		cin>>x>>y;
-		cout<<x+y<<endl;
-		T--;
+		cout<<x+y<<endl;	
 	}
 
 
