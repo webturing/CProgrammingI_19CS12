@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-	int x=1;//S1
+	int x=1;/*S1*/
 	while(x<=10/*S2*/) {
 		cout<<x<<endl;/*S4*/
 		x++;/*S3*/

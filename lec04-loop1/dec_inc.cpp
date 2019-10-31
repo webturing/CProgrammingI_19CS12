@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
 	int x=9;
+	cout<<"first_line:"<<(x++)<<endl;// 8 9 10:
 	++x;//x+=1   x=x+1
 	x++;
 	x--;
