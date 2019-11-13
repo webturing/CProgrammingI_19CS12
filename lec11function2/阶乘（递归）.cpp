@@ -1,20 +1,22 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
 int Factorial(int n) {
-   if(n<=1) return 1;//µÝ¹é»ù´¡£¨ÖÕµã£©
-   else  return n*Factorial(n-1);//µÝ¹éÌå
+    if (n <= 1) return 1;//ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õµã£©
+    else return n * Factorial(n - 1);//ï¿½Ý¹ï¿½ï¿½ï¿½
 }
 
 int main() {
-    cout<<Factorial(5)<<endl;
+    cout << Factorial(5) << endl;
 
-    for(int i=0;i<10;i++){
-        cout<<Factorial(i)<<endl;
+    for (int i = 0; i < 10; i++) {
+        cout << Factorial(i) << endl;
 
     }
-    int a=3,b=4;
-    int m=(a>b)?a:b;
-    cout<<m<<endl;
+    int a = 3, b = 4;
+    int m = (a > b) ? a : b;
+    cout << m << endl;
 
     return 0;
 }

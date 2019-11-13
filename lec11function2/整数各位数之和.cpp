@@ -1,8 +1,10 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
 int Sum(int n) {
-    if(n<10)return n;
-    return Sum(n/10)+(n%10);
+    if (n < 10)return n;
+    return Sum(n / 10) + (n % 10);
 }
 
 int main() {
