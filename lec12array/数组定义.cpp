@@ -1,13 +1,13 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main() {
-    int a[10];
-    cout << dec << (int) a << endl;///Êý×éµÄÆðÊ¼µØÖ· a =&a[0]
-    cout << dec << (int) (a + 1) << endl;///&a[1]=a+1
+  int a[10];
+  cout << dec << (int)a << endl;  ///ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ö· a =&a[0]
+  cout << dec << (int)(a + 1) << endl;  ///&a[1]=a+1
 
-    cout << dec << (int) (a + 7) << endl;///&a[7]=a+7
-    cout << dec << (int) (&a[7]) << endl;///&a[7]=a+7
-    return 0;
+  cout << dec << (int)(a + 7) << endl;  ///&a[7]=a+7
+  cout << dec << (int)(&a[7]) << endl;  ///&a[7]=a+7
+  return 0;
 }
