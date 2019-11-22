@@ -4,12 +4,12 @@ using ll = long long;
 const int N = 20000000 + 10;
 bool prime[N];
 void Init() {                    /// O(sqrt(n)logn)
-  fill(prime, prime + N, true);  ///¼ÙÉèÃ¿Ò»¸öÊı¶¼ÊÇËØÊı
-  prime[0] = prime[1] = false;   ///É¾³ı0 ºÍ1
+  fill(prime, prime + N, true);  ///å‡è®¾æ¯ä¸€ä¸ªæ•°éƒ½æ˜¯ç´ æ•°
+  prime[0] = prime[1] = false;   ///åˆ é™¤0 å’Œ1
   for (int i = 2; i * i <= N; i++) {
-    if (prime[i] == true) {  ///Óöµ½µÚÒ»¸öÊıÒ»¶¨ÊÇËØÊı
+    if (prime[i] == true) {  ///é‡åˆ°ç¬¬ä¸€ä¸ªæ•°ä¸€å®šæ˜¯ç´ æ•°
       for (int j = 2 * i; j < N; j += i)
-        prime[j] = false;  ///±£ÁôÕâ¸öËØÊı£¬É¾³ıËûµÄ±¶Êı
+        prime[j] = false;  ///ä¿ç•™è¿™ä¸ªç´ æ•°ï¼Œåˆ é™¤ä»–çš„å€æ•°
     }
   }
 }
@@ -33,6 +33,6 @@ int main() {
   }
 
   ll end = clock();
-  cout << (end - start) / 1000.0 << " Second(s)." << endl;
+  cout << (end - start) / CLOCKS_PER_SEC << " Second(s)." << endl;
   return 0;
 }
