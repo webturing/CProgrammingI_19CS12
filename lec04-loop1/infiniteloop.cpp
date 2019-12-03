@@ -1,15 +1,17 @@
 #include<bits/stdc++.h>
+
 using namespace std;
-int main(){
-	cout<<"hello ahstu"<<endl;//1´Î 
-	
-	if(4>3){//0-1´Î 
-		cout<<"hello ahstu"<<endl;
-	}
-	
-	while(1){//ÎÞÏÞ´Î 
-		cout<<"hello world"<<endl;
-	}
-	
-	return 0;
+
+int main() {
+    cout << "hello ahstu" << endl;//1ï¿½ï¿½
+
+    if (4 > 3) {//0-1ï¿½ï¿½
+        cout << "hello ahstu" << endl;
+    }
+
+    while (1) {//ï¿½ï¿½ï¿½Þ´ï¿½
+        cout << "hello world" << endl;
+    }
+
+    return 0;
 }

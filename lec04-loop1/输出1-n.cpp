@@ -1,13 +1,14 @@
 #include<bits/stdc++.h>
+
 using namespace std;
-int main()
-{
-	int n=10;
-	int x=1;
-	while(x<=10){
-		
-		cout<<x<<endl;//Ñ­»·²»±äÊ½ 
-		++x;
-	}
-	return 0;
+
+int main() {
+    int n = 10;
+    int x = 1;
+    while (x <= 10) {
+
+        cout << x << endl;//Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
+        ++x;
+    }
+    return 0;
 }

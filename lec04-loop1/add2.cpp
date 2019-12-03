@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+
 //Sample Input:
 //1 2
 //3 4

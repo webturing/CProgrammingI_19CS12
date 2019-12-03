@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+
 //Sample Input:
 //3
 //1 2
@@ -11,15 +12,15 @@ using namespace std;
 //7
 //11
 int main() {
-	int T;
-	cin>>T;//T=3
-	while(T>0) {
-		int x,y;
-		cin>>x>>y;
-		cout<<x+y<<endl;
-		T--;
-	}
+    int T;
+    cin >> T;//T=3
+    while (T > 0) {
+        int x, y;
+        cin >> x >> y;
+        cout << x + y << endl;
+        T--;
+    }
 
 
-	return 0;
+    return 0;
 }
